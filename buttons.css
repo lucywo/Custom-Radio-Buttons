@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .only-sr {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .background {
+    background-color: whitesmoke;
+    display: flex;
+    position: relative;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .styling {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .general_button {
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  /*input[type="radio"] {
+    color: #543;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+  }*/
+  
+  input:checked {
+    filter: drop-shadow(0px 0px 5px rgba(103, 0, 176, 0.811));
+    background-color: blueviolet;
+  }
